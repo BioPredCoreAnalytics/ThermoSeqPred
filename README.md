@@ -21,8 +21,7 @@ RAAPIV (Reverse Accumulative Absolute Position Incidence Vector)
 Hahn Moments
 These engineered descriptors, combined with sequence- and structure-based representations, enable robust supervised learning and provide interpretable insights into thermophilic vs non-thermophilic protein discrimination.
 
-Authors: 
-Sharaf Jameel Malebary , Hamza Shahab Awan, Anas Saleh Alkarim, Nashwan Alromema, Yaser Daanial Khan
+
 
 
 #Availability
