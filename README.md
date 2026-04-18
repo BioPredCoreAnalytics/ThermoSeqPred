@@ -2,18 +2,18 @@
 This repository contains code, notebooks, and scripts used to develop and evaluate supervised machine learning and deep learning models for predicting thermophilic proteins from sequence and proteomic-derived features. The goal is to provide a reproducible pipeline for feature engineering, model training, hyperparameter tuning, evaluation, and explainable AI (XAI) analysis for biological insight.
 
 #Motivation
-Thermophilic proteins are proteins that remain stable and functional at high temperatures. Predicting whether a protein is thermophilic from sequence or proteomic signals has applications in biotechnology, industrial enzyme design, and understanding protein stability. This project builds a supervised learning framework to classify proteins as thermophilic vs mesophilic (or additional temperature-related classes), compare feature-based ML with end-to-end DL on sequences, and provide interpretable feature attributions.
+Thermophilic proteins are proteins that remain stable and functional at high temperatures. Predicting whether a protein is thermophilic from sequence or proteomic signals has applications in biotechnology, industrial enzyme design, and understanding protein stability. This project builds a supervised learning framework to classify proteins as thermophilic (or additional temperature-related classes), compare feature-based ML with end-to-end DL on sequences, and provide interpretable feature attributions.
 
 #Dataset
 Primary sources: Uniprot/SwissProt, Thermophile-specific databases.
-Labels: thermophilic proteins (binary) by experimentally-determined optimum temperature or organism growth temperature. Optionally multi-class (e.g., psychrophilic / mesophilic / thermophilic).
+Labels: thermophilic proteins (binary) by experimentally-determined optimum temperature or organism growth temperature.
 Availability: The dataset is currently available upon request. Please contact us (sp24-pcs-006@cuilahore.edu.pk) for access.
 
 Author :
 Sharaf J. Malebary , Hamza Shahab Awan , Anas Saleh Alkarim , Nashwan Alromema, Yaser Daanial Khan
 
 #Feature engineering
-We implement multiple feature sets so you can compare which signals carry thermophilicity information. Specifically, we utilize a 153-dimensional genomic/protein-derived feature representation that captures rich statistical, positional, and physicochemical information:
+We implement multiple feature sets so you can compare which signals carry thermophilicity information. Specifically, Proteomic feature vectors derived from the position relative composition variant feature representation of genomic/protein-derived sequences feature representation that identify rich statistical, positional, and physicochemical information:
 Super Feature Vectors
 Raw Moments
 Central Moments of Statistical Distributions
