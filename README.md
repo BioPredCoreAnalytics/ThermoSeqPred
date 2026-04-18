@@ -9,6 +9,9 @@ Primary sources: Uniprot/SwissProt, Thermophile-specific databases.
 Labels: thermophilic proteins (binary) by experimentally-determined optimum temperature or organism growth temperature. Optionally multi-class (e.g., psychrophilic / mesophilic / thermophilic).
 Availability: The dataset is currently available upon request. Please contact us (sp24-pcs-006@cuilahore.edu.pk) for access.
 
+Author :
+Sharaf J. Malebary , Hamza Shahab Awan , Anas Saleh Alkarim , Nashwan Alromema, Yaser Daanial Khan
+
 #Feature engineering
 We implement multiple feature sets so you can compare which signals carry thermophilicity information. Specifically, we utilize a 153-dimensional genomic/protein-derived feature representation that captures rich statistical, positional, and physicochemical information:
 Super Feature Vectors
